@@ -1,0 +1,75 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/terminal-grotesque_open.otf);
+}
+@font-face {
+    font-family: rubik;
+    src: url(fonts/Rubik-Light.ttf);
+}
+
+body, html {
+    background-color: rgb(2, 2, 49);
+    color: rgb(255, 255, 255);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    flex: 0 0 100px;
+    font-family: rubik;
+}
+
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+#containter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    margin-top: -300px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+#header {
+    border: 1px solid rgb(255, 83, 83);
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.my-name {
+    font-family: myFirstFont;
+    font-size: 50px;
+    border: 1px solid rgb(83, 255, 126);
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+.student {
+    border: 1px solid rgb(255, 83, 241);
+    margin-bottom: 10px;
+}
+
+.introduction {
+    border: 1px solid rgb(83, 244, 255);
+    margin-bottom: 10px;
+}
+
+.Projects{
+    border: 1px solid rgb(255, 238, 83);
+    margin-bottom: 10px;
+}
+
+.resume{
+    border: 1px solid rgb(255, 83, 255);
+    margin-bottom: 10px;
+}
+
+.contact-information{
+    border: 1px solid rgb(255, 83, 83);
+    margin-bottom: 10px;
+}
+
