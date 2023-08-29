@@ -16,8 +16,8 @@
 /*---------------------------------------------------------------*/
 /*Main body*/
 html, body {
-    background-color: rgba(0, 0, 26, 0.815);
-    color: rgb(255, 255, 255);
+    background-color: #234E70;
+    color: #CCF381;
     height: 100%;
     flex: 1;
     margin: 0;
@@ -30,7 +30,7 @@ ul {
     padding: 0;
 }
 p {
-    color: rgba(255, 255, 255, 0.705);
+    color: #CCF381;
 }
 /*---------------------------------------------------------------*/
 /*Main Container*/
@@ -43,12 +43,14 @@ p {
     height: auto;
     max-width: 600px;
     padding: 0px;
-    order: 1px solid rgb(255, 83, 83);
+}
+.shadow-pop-tl {
+	-webkit-animation: shadow-pop-tl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: shadow-pop-tl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
 /*---------------------------------------------------------------*/
 /*Name and Student info*/
 #header {
-    order: 1px solid rgb(255, 83, 83);
     display: flex;
     flex-direction: column;
 }
@@ -61,25 +63,21 @@ p {
 .my-name {
     font-family: name;
     font-size: 50px;
-    order: 1px solid rgb(83, 255, 126);
     max-height: 110px;
 }
 /*---------------------------------------------------------------*/
 /*Student info*/
 .student {
-    order: 1px solid rgb(255, 83, 241);
 }
 /*---------------------------------------------------------------*/
 /*Intro paragraph*/
 .introduction {
-    order: 1px solid rgb(83, 244, 255);
     margin-bottom: 10px;
 }
 /*---------------------------------------------------------------*/
 /*Main project container*/
 .Projects {
-    order: 1px solid rgb(255, 238, 83);
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 /*Project section Header*/
 .Projects > h2 {
@@ -91,51 +89,62 @@ p {
 }
 /*Project list description*/
 .Projects > ul p {
-    color: rgba(255, 255, 255, 0.705);
+    color:#CCF381;
 }
 
 /*Titles for the different projects*/
 .title {
-    order: 1px solid yellow;
     max-width: fit-content;
     font-family: rubik-bold;
 }
+.pro-list li {
+    margin-bottom: 20px;
+}
 
 .section1 {
-    border-radius: 10px;
+    border-radius: 3px;
     padding: 10px;
     transition: background-color 0.3s ease;
+    
 }
 
 .section1:hover {
-    background-color: rgba(41, 41, 80, 0.815); 
+    background-color: #1a3b55;
+    -webkit-animation: shadow-pop-tl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: shadow-pop-tl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
 .section2 {
-    border-radius: 10px;
+    border-radius: 3px;
     padding: 10px;
     transition: background-color 0.3s ease;
 }
 
 .section2:hover {
-    background-color: rgba(41, 41, 80, 0.815); 
+    background-color: #1a3b55;
+    -webkit-animation: shadow-pop-tl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: shadow-pop-tl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
 .section3 {
-    border-radius: 10px;
+    border-radius: 3px;
     padding: 10px;
     transition: background-color 0.3s ease;
 }
 
 .section3:hover {
-    background-color: rgba(41, 41, 80, 0.815);
+    background-color: #1a3b55;
+    -webkit-animation: shadow-pop-tl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: shadow-pop-tl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
 .section4 {
-    border-radius: 10px;
+    border-radius: 3px;
     padding: 10px;
     transition: background-color 0.3s ease;
 }
 
 .section4:hover {
-    background-color: rgba(41, 41, 80, 0.815);
+    background-color: #1a3b55;
+    -webkit-animation: shadow-pop-tl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: shadow-pop-tl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
 /*---------------------------------------------------------------*/
 /*Contact info Section*/
@@ -154,47 +163,47 @@ p {
     margin-bottom: 30px;
 }
 .list-prefix {
-    color: rgba(255, 255, 255, 0.705);
+    color: #CCF381;
 }
 
 .contact-info-list a {
     text-decoration: none;
-    color: #007bff;
+    color: #CCF381;
 }
 /*---------------------------------------------------------------*/
 .horizontal-line1 {
     position: relative;
     height: 2px; /* Adjust line height as needed */
     width: 300px; /* Adjust line width as needed */
-    background-color: #242323; /* Line color */
+    background-color: #8a8a8a; /* Line color */
     margin: auto; /* Center the line horizontally */
 }
 .horizontal-line2 {
     position: relative;
     height: 2px; /* Adjust line height as needed */
     width: 370px; /* Adjust line width as needed */
-    background-color: #242323; /* Line color */
+    background-color: #8a8a8a; /* Line color */
     margin: auto; /* Center the line horizontally */
 }
 .horizontal-line3 {
     position: relative;
     height: 2px; /* Adjust line height as needed */
     width: 370px; /* Adjust line width as needed */
-    background-color: #242323; /* Line color */
+    background-color: #8a8a8a; /* Line color */
     margin: auto; /* Center the line horizontally */
 }
 .horizontal-line4 {
     position: relative;
     height: 2px; /* Adjust line height as needed */
     width: 430px; /* Adjust line width as needed */
-    background-color: #242323; /* Line color */
+    background-color: #8a8a8a; /* Line color */
     margin: auto; /* Center the line horizontally */
 }
 .horizontal-line5 {
     position: relative;
     height: 2px; /* Adjust line height as needed */
     width: 330px; /* Adjust line width as needed */
-    background-color: #242323; /* Line color */
+    background-color: #8a8a8a; /* Line color */
     margin: auto; /* Center the line horizontally */
 }
 
@@ -208,8 +217,46 @@ p {
     height: 20px; /* Adjust the before element's height as needed */
 }
 #footer p {
-    color:#494949;
+    color:#cbf381a1;
 }
 a:hover {
     text-decoration: underline;
 }
+
+.shadow-pop-tl {
+	-webkit-animation: shadow-pop-tl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: shadow-pop-tl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+/**
+ * ----------------------------------------
+ * animation shadow-pop-tl
+ * ----------------------------------------
+ */
+ @-webkit-keyframes shadow-pop-tl {
+    0% {
+      -webkit-box-shadow: 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a;
+              box-shadow: 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a;
+      -webkit-transform: translateX(0) translateY(0);
+              transform: translateX(0) translateY(0);
+    }
+    100% {
+      -webkit-box-shadow: -1px -1px #8a8a8a, -2px -2px #8a8a8a, -3px -3px #8a8a8a, -4px -4px #8a8a8a, -5px -5px #8a8a8a, -6px -6px #8a8a8a, -7px -7px #8a8a8a, -8px -8px #8a8a8a;
+              box-shadow: -1px -1px #8a8a8a, -2px -2px #8a8a8a, -3px -3px #8a8a8a, -4px -4px #8a8a8a, -5px -5px #8a8a8a, -6px -6px #8a8a8a, -7px -7px #8a8a8a, -8px -8px #8a8a8a;
+      -webkit-transform: translateX(8px) translateY(8px);
+              transform: translateX(8px) translateY(8px);
+    }
+  }
+  @keyframes shadow-pop-tl {
+    0% {
+      -webkit-box-shadow: 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a;
+              box-shadow: 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a;
+      -webkit-transform: translateX(0) translateY(0);
+              transform: translateX(0) translateY(0);
+    }
+    100% {
+      -webkit-box-shadow: -1px -1px #8a8a8a, -2px -2px #8a8a8a, -3px -3px #8a8a8a, -4px -4px #8a8a8a, -5px -5px #8a8a8a, -6px -6px #8a8a8a, -7px -7px #8a8a8a, -8px -8px #8a8a8a;
+              box-shadow: -1px -1px #8a8a8a, -2px -2px #8a8a8a, -3px -3px #8a8a8a, -4px -4px #8a8a8a, -5px -5px #8a8a8a, -6px -6px #8a8a8a, -7px -7px #8a8a8a, -8px -8px #8a8a8a;
+      -webkit-transform: translateX(8px) translateY(8px);
+              transform: translateX(8px) translateY(8px);
+    }
+  }
