@@ -24,12 +24,11 @@ ul {
 
 #main-container {
     display: flex;
-    flex: 0;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     margin: auto;
-    height: 50%;
+    height: auto;
     max-width: 600px;
     padding: 0px;
     order: 1px solid rgb(255, 83, 83);
