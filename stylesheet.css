@@ -37,10 +37,10 @@ ul {
     height: auto;
     max-width: 600px;
     padding: 0px;
-    border: 1px solid rgb(255, 83, 83);
+    order: 1px solid rgb(255, 83, 83);
 }
 #header {
-    border: 1px solid rgb(255, 83, 83);
+    order: 1px solid rgb(255, 83, 83);
     display: flex;
     flex-direction: column;
 }
@@ -51,16 +51,16 @@ ul {
 .my-name {
     font-family: name;
     font-size: 50px;
-    border: 1px solid rgb(83, 255, 126);
+    order: 1px solid rgb(83, 255, 126);
     max-height: 110px;
 }
 
 .student {
-    border: 1px solid rgb(255, 83, 241);
+    order: 1px solid rgb(255, 83, 241);
 }
 
 .introduction {
-    border: 1px solid rgb(83, 244, 255);
+    order: 1px solid rgb(83, 244, 255);
     margin-bottom: 10px;
 }
 
@@ -73,22 +73,22 @@ ul {
 }
 
 .Projects > ul {
-    margin-left: 10px;
+    margin-left: 40px;
 }
 
 .title {
-    border: 1px solid yellow;
+    order: 1px solid yellow;
     max-width: fit-content;
     font-family: rubik-bold;
 }
 
 .resume{
-    border: 1px solid rgb(255, 83, 255);
+    order: 1px solid rgb(255, 83, 255);
     margin-bottom: 10px;
 }
 
 .contact-information{
-    border: 1px solid rgb(255, 83, 83);
+    order: 1px solid rgb(255, 83, 83);
     margin-bottom: 10px;
 }
 
