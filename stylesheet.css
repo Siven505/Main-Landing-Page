@@ -2,9 +2,15 @@
     font-family: name;
     src: url(fonts/Rubik-BlackItalic.ttf)
 }
+
 @font-face {
     font-family: rubik;
     src: url(fonts/Rubik-Light.ttf);
+}
+
+@font-face {
+    font-family: rubik-bold;
+    src: url(fonts/Rubik-Bold.ttf)
 }
 
 body, html {
@@ -31,10 +37,10 @@ ul {
     height: auto;
     max-width: 600px;
     padding: 0px;
-    order: 1px solid rgb(255, 83, 83);
+    border: 1px solid rgb(255, 83, 83);
 }
 #header {
-    order: 1px solid rgb(255, 83, 83);
+    border: 1px solid rgb(255, 83, 83);
     display: flex;
     flex-direction: column;
 }
@@ -45,31 +51,44 @@ ul {
 .my-name {
     font-family: name;
     font-size: 50px;
-    order: 1px solid rgb(83, 255, 126);
+    border: 1px solid rgb(83, 255, 126);
     max-height: 110px;
 }
 
 .student {
-    order: 1px solid rgb(255, 83, 241);
+    border: 1px solid rgb(255, 83, 241);
 }
 
 .introduction {
-    order: 1px solid rgb(83, 244, 255);
+    border: 1px solid rgb(83, 244, 255);
     margin-bottom: 10px;
 }
 
-.Projects{
+.Projects {
     order: 1px solid rgb(255, 238, 83);
     margin-bottom: 10px;
 }
+.Projects > h2 {
+    font-family: rubik-bold;
+}
+
+.Projects > ul {
+    margin-left: 10px;
+}
+
+.title {
+    border: 1px solid yellow;
+    max-width: fit-content;
+    font-family: rubik-bold;
+}
 
 .resume{
-    order: 1px solid rgb(255, 83, 255);
+    border: 1px solid rgb(255, 83, 255);
     margin-bottom: 10px;
 }
 
 .contact-information{
-    order: 1px solid rgb(255, 83, 83);
+    border: 1px solid rgb(255, 83, 83);
     margin-bottom: 10px;
 }
 
