@@ -13,9 +13,10 @@
     font-family: rubik-bold;
     src: url(fonts/Rubik-Bold.ttf)
 }
+/*---------------------------------------------------------------*/
 /*Main body*/
-body, html {
-    background-color: rgb(2, 2, 49);
+html, body {
+    background-color: rgba(2, 2, 49, 0.815);
     color: rgb(255, 255, 255);
     height: 100%;
     flex: 1;
@@ -28,6 +29,10 @@ ul {
     list-style: none;
     padding: 0;
 }
+p {
+    color: rgba(255, 255, 255, 0.705);
+}
+/*---------------------------------------------------------------*/
 /*Main Container*/
 #main-container {
     display: flex;
@@ -40,6 +45,7 @@ ul {
     padding: 0px;
     order: 1px solid rgb(255, 83, 83);
 }
+/*---------------------------------------------------------------*/
 /*Name and Student info*/
 #header {
     order: 1px solid rgb(255, 83, 83);
@@ -50,6 +56,7 @@ ul {
 #mini-container {
     padding-left: 5px;
 }
+/*---------------------------------------------------------------*/
 /*Name*/
 .my-name {
     font-family: name;
@@ -57,15 +64,18 @@ ul {
     order: 1px solid rgb(83, 255, 126);
     max-height: 110px;
 }
+/*---------------------------------------------------------------*/
 /*Student info*/
 .student {
     order: 1px solid rgb(255, 83, 241);
 }
+/*---------------------------------------------------------------*/
 /*Intro paragraph*/
 .introduction {
     order: 1px solid rgb(83, 244, 255);
     margin-bottom: 10px;
 }
+/*---------------------------------------------------------------*/
 /*Main project container*/
 .Projects {
     order: 1px solid rgb(255, 238, 83);
@@ -90,14 +100,45 @@ ul {
     max-width: fit-content;
     font-family: rubik-bold;
 }
-/*Resume download link*/
-.resume{
-    order: 1px solid rgb(255, 83, 255);
-    margin-bottom: 10px;
-}
-/*Contact info*/
+/*---------------------------------------------------------------*/
+/*Contact info Section*/
 .contact-information{
-    order: 1px solid rgb(255, 83, 83);
-    margin-bottom: 10px;
+    
 }
 
+.contact-info-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.list-prefix {
+    color: rgba(255, 255, 255, 0.705);
+}
+
+.contact-info-list a {
+    text-decoration: none;
+    color: #007bff;
+}
+/*---------------------------------------------------------------*/
+.horizontal-line {
+    position: relative;
+    height: 2px; /* Adjust line height as needed */
+    width: 300px; /* Adjust line width as needed */
+    background-color: #242323; /* Line color */
+    margin: auto; /* Center the line horizontally */
+}
+
+.horizontal-line::before {
+    content: '';
+    position: absolute;
+    left: -10px; /* Adjust the offset from the left as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px; /* Adjust the before element's width as needed */
+    height: 20px; /* Adjust the before element's height as needed */
+}
