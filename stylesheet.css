@@ -1,6 +1,6 @@
 @font-face {
-    font-family: myFirstFont;
-    src: url(fonts/terminal-grotesque_open.otf);
+    font-family: name;
+    src: url(fonts/Rubik-BlackItalic.ttf)
 }
 @font-face {
     font-family: rubik;
@@ -9,15 +9,13 @@
 
 body, html {
     background-color: rgb(2, 2, 49);
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.87);
     height: 100%;
+    flex: 1;
     margin: 0;
     padding: 0;
-    flex: 0 0 100px;
     font-family: rubik;
 }
-
-
 
 ul {
     list-style: none;
@@ -26,26 +24,28 @@ ul {
 
 #containter {
     display: flex;
+    flex: 0;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    height: 100%;
-    margin-top: -300px;
-    margin-left: 600px;
-    margin-right: 600px;
+    margin: auto;
+    height: 50%;
+    max-width: 600px;
+    padding: 0px;
+    border: 1px solid rgb(255, 83, 83);
 }
 #header {
     border: 1px solid rgb(255, 83, 83);
     display: inline-flex;
     flex-direction: column;
+
 }
 
 .my-name {
-    font-family: myFirstFont;
+    font-family: name;
     font-size: 50px;
     border: 1px solid rgb(83, 255, 126);
     margin-bottom: 10px;
-    padding: 0px;
 }
 
 .student {
@@ -54,22 +54,22 @@ ul {
 }
 
 .introduction {
-    border: 1px solid rgb(83, 244, 255);
+    order: 1px solid rgb(83, 244, 255);
     margin-bottom: 10px;
 }
 
 .Projects{
-    border: 1px solid rgb(255, 238, 83);
+    order: 1px solid rgb(255, 238, 83);
     margin-bottom: 10px;
 }
 
 .resume{
-    border: 1px solid rgb(255, 83, 255);
+    order: 1px solid rgb(255, 83, 255);
     margin-bottom: 10px;
 }
 
 .contact-information{
-    border: 1px solid rgb(255, 83, 83);
+    order: 1px solid rgb(255, 83, 83);
     margin-bottom: 10px;
 }
 
