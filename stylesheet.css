@@ -16,7 +16,7 @@
 /*---------------------------------------------------------------*/
 /*Main body*/
 html, body {
-    background-color: rgba(2, 2, 49, 0.815);
+    background-color: rgba(0, 0, 26, 0.815);
     color: rgb(255, 255, 255);
     height: 100%;
     flex: 1;
@@ -100,6 +100,43 @@ p {
     max-width: fit-content;
     font-family: rubik-bold;
 }
+
+.section1 {
+    border-radius: 10px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.section1:hover {
+    background-color: rgba(41, 41, 80, 0.815); 
+}
+.section2 {
+    border-radius: 10px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.section2:hover {
+    background-color: rgba(41, 41, 80, 0.815); 
+}
+.section3 {
+    border-radius: 10px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.section3:hover {
+    background-color: rgba(41, 41, 80, 0.815);
+}
+.section4 {
+    border-radius: 10px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.section4:hover {
+    background-color: rgba(41, 41, 80, 0.815);
+}
 /*---------------------------------------------------------------*/
 /*Contact info Section*/
 .contact-information{
@@ -125,10 +162,38 @@ p {
     color: #007bff;
 }
 /*---------------------------------------------------------------*/
-.horizontal-line {
+.horizontal-line1 {
     position: relative;
     height: 2px; /* Adjust line height as needed */
     width: 300px; /* Adjust line width as needed */
+    background-color: #242323; /* Line color */
+    margin: auto; /* Center the line horizontally */
+}
+.horizontal-line2 {
+    position: relative;
+    height: 2px; /* Adjust line height as needed */
+    width: 370px; /* Adjust line width as needed */
+    background-color: #242323; /* Line color */
+    margin: auto; /* Center the line horizontally */
+}
+.horizontal-line3 {
+    position: relative;
+    height: 2px; /* Adjust line height as needed */
+    width: 370px; /* Adjust line width as needed */
+    background-color: #242323; /* Line color */
+    margin: auto; /* Center the line horizontally */
+}
+.horizontal-line4 {
+    position: relative;
+    height: 2px; /* Adjust line height as needed */
+    width: 430px; /* Adjust line width as needed */
+    background-color: #242323; /* Line color */
+    margin: auto; /* Center the line horizontally */
+}
+.horizontal-line5 {
+    position: relative;
+    height: 2px; /* Adjust line height as needed */
+    width: 330px; /* Adjust line width as needed */
     background-color: #242323; /* Line color */
     margin: auto; /* Center the line horizontally */
 }
@@ -141,4 +206,10 @@ p {
     transform: translateY(-50%);
     width: 20px; /* Adjust the before element's width as needed */
     height: 20px; /* Adjust the before element's height as needed */
+}
+#footer p {
+    color:#494949;
+}
+a:hover {
+    text-decoration: underline;
 }
