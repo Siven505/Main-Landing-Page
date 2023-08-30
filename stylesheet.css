@@ -68,10 +68,12 @@ p {
 /*---------------------------------------------------------------*/
 /*Student info*/
 .student {
+    font-size: 18px;
 }
 /*---------------------------------------------------------------*/
 /*Intro paragraph*/
 .introduction {
+    font-size: 18px;
     margin-bottom: 10px;
 }
 /*---------------------------------------------------------------*/
@@ -109,6 +111,7 @@ p {
 }
 
 .section1:hover {
+    border: 1px solid;
     background-color: #1a3b55;
     -webkit-animation: shadow-pop-tl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 	        animation: shadow-pop-tl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
@@ -120,6 +123,7 @@ p {
 }
 
 .section2:hover {
+    border: 1px solid;
     background-color: #1a3b55;
     -webkit-animation: shadow-pop-tl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 	        animation: shadow-pop-tl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
@@ -131,6 +135,7 @@ p {
 }
 
 .section3:hover {
+    border: 1px solid;
     background-color: #1a3b55;
     -webkit-animation: shadow-pop-tl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 	        animation: shadow-pop-tl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
@@ -143,6 +148,7 @@ p {
 
 .section4:hover {
     background-color: #1a3b55;
+    border: 1px solid;
     -webkit-animation: shadow-pop-tl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 	        animation: shadow-pop-tl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
