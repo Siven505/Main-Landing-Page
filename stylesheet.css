@@ -41,7 +41,7 @@ p {
     align-items: flex-start;
     margin: auto;
     height: auto;
-    max-width: 600px;
+    max-width: 900px;
     padding: 0px;
 }
 .shadow-pop-tl {
@@ -174,35 +174,35 @@ p {
 .horizontal-line1 {
     position: relative;
     height: 2px; /* Adjust line height as needed */
-    width: 300px; /* Adjust line width as needed */
+    width: 560px; /* Adjust line width as needed */
     background-color: #8a8a8a; /* Line color */
     margin: auto; /* Center the line horizontally */
 }
 .horizontal-line2 {
     position: relative;
     height: 2px; /* Adjust line height as needed */
-    width: 370px; /* Adjust line width as needed */
+    width: 670px; /* Adjust line width as needed */
     background-color: #8a8a8a; /* Line color */
     margin: auto; /* Center the line horizontally */
 }
 .horizontal-line3 {
     position: relative;
     height: 2px; /* Adjust line height as needed */
-    width: 370px; /* Adjust line width as needed */
+    width: 650px; /* Adjust line width as needed */
     background-color: #8a8a8a; /* Line color */
     margin: auto; /* Center the line horizontally */
 }
 .horizontal-line4 {
     position: relative;
     height: 2px; /* Adjust line height as needed */
-    width: 430px; /* Adjust line width as needed */
+    width: 710px; /* Adjust line width as needed */
     background-color: #8a8a8a; /* Line color */
     margin: auto; /* Center the line horizontally */
 }
 .horizontal-line5 {
     position: relative;
     height: 2px; /* Adjust line height as needed */
-    width: 330px; /* Adjust line width as needed */
+    width: 620px; /* Adjust line width as needed */
     background-color: #8a8a8a; /* Line color */
     margin: auto; /* Center the line horizontally */
 }
