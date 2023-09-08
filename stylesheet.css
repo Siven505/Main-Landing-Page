@@ -19,10 +19,10 @@ html, body {
     background-color: #234E70;
     color: #CCF381;
     height: 100%;
-    flex: 1;
     margin: 0;
     padding: 0;
     font-family: rubik;
+    overflow: hidden;
 }
 /*List Styling*/
 ul {
@@ -31,6 +31,32 @@ ul {
 }
 p {
     color: #CCF381;
+}
+
+.circle {
+    position: absolute;
+    background-color: #cbf3814b;
+    border-radius: 50%;
+}
+
+.small {
+    width: 40px;
+    height: 40px;
+}
+
+.medium {
+    width: 50px;
+    height: 50px;
+}
+
+.large {
+    width: 60px;
+    height: 60px;
+}
+
+/* Add some animation to make the movement smoother */
+.circle {
+    transition: transform 0.05s;
 }
 /*---------------------------------------------------------------*/
 /*Main Container*/
@@ -154,8 +180,8 @@ p {
 }
 /*---------------------------------------------------------------*/
 /*Contact info Section*/
-.contact-information{
-    
+.contact-information h2 { 
+    font-family: rubik-bold;
 }
 
 .contact-info-list {
@@ -222,9 +248,21 @@ p {
     width: 20px; /* Adjust the before element's width as needed */
     height: 20px; /* Adjust the before element's height as needed */
 }
-#footer p {
-    color:#cbf381a1;
+/**
+Footer
+*/
+.wrapper {
+    height: 100%;
+    overflow-y: auto;
 }
+.footer{
+    color:#cbf381a1;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+}
+/*---------------------------------------------------------------*/
 a:hover {
     text-decoration: underline;
 }
@@ -240,28 +278,28 @@ a:hover {
  */
  @-webkit-keyframes shadow-pop-tl {
     0% {
-      -webkit-box-shadow: 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a;
-              box-shadow: 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a;
+      -webkit-box-shadow: 0 0 #CCF381, 0 0 #CCF381, 0 0 #CCF381, 0 0 #CCF381, 0 0 #CCF381, 0 0 #CCF381, 0 0 #CCF381, 0 0 #CCF381;
+              box-shadow: 0 0 #CCF381, 0 0 #CCF381, 0 0 #CCF381, 0 0 #CCF381, 0 0 #CCF381, 0 0 #CCF381, 0 0 #CCF381, 0 0 #CCF381;
       -webkit-transform: translateX(0) translateY(0);
               transform: translateX(0) translateY(0);
     }
     100% {
-      -webkit-box-shadow: -1px -1px #8a8a8a, -2px -2px #8a8a8a, -3px -3px #8a8a8a, -4px -4px #8a8a8a, -5px -5px #8a8a8a, -6px -6px #8a8a8a, -7px -7px #8a8a8a, -8px -8px #8a8a8a;
-              box-shadow: -1px -1px #8a8a8a, -2px -2px #8a8a8a, -3px -3px #8a8a8a, -4px -4px #8a8a8a, -5px -5px #8a8a8a, -6px -6px #8a8a8a, -7px -7px #8a8a8a, -8px -8px #8a8a8a;
+      -webkit-box-shadow: -1px -1px #CCF381, -2px -2px #CCF381, -3px -3px #CCF381, -4px -4px #CCF381, -5px -5px #CCF381, -6px -6px #CCF381, -7px -7px #CCF381, -8px -8px #CCF381;
+              box-shadow: -1px -1px #CCF381, -2px -2px #CCF381, -3px -3px #CCF381, -4px -4px #CCF381, -5px -5px #CCF381, -6px -6px #CCF381, -7px -7px #CCF381, -8px -8px #CCF381;
       -webkit-transform: translateX(8px) translateY(8px);
               transform: translateX(8px) translateY(8px);
     }
   }
   @keyframes shadow-pop-tl {
     0% {
-      -webkit-box-shadow: 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a;
-              box-shadow: 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a, 0 0 #8a8a8a;
+      -webkit-box-shadow: 0 0 #CCF381, 0 0 #CCF381, 0 0 #CCF381, 0 0 #CCF381, 0 0 #CCF381, 0 0 #CCF381, 0 0 #CCF381, 0 0 #CCF381;
+              box-shadow: 0 0 #CCF381, 0 0 #CCF381, 0 0 #CCF381, 0 0 #CCF381, 0 0 #CCF381, 0 0 #CCF381, 0 0 #CCF381, 0 0 #CCF381;
       -webkit-transform: translateX(0) translateY(0);
               transform: translateX(0) translateY(0);
     }
     100% {
-      -webkit-box-shadow: -1px -1px #8a8a8a, -2px -2px #8a8a8a, -3px -3px #8a8a8a, -4px -4px #8a8a8a, -5px -5px #8a8a8a, -6px -6px #8a8a8a, -7px -7px #8a8a8a, -8px -8px #8a8a8a;
-              box-shadow: -1px -1px #8a8a8a, -2px -2px #8a8a8a, -3px -3px #8a8a8a, -4px -4px #8a8a8a, -5px -5px #8a8a8a, -6px -6px #8a8a8a, -7px -7px #8a8a8a, -8px -8px #8a8a8a;
+      -webkit-box-shadow: -1px -1px #CCF381, -2px -2px #CCF381, -3px -3px #CCF381, -4px -4px #CCF381, -5px -5px #CCF381, -6px -6px #CCF381, -7px -7px #CCF381, -8px -8px #CCF381;
+              box-shadow: -1px -1px #CCF381, -2px -2px #CCF381, -3px -3px #CCF381, -4px -4px #CCF381, -5px -5px #CCF381, -6px -6px #CCF381, -7px -7px #CCF381, -8px -8px #CCF381;
       -webkit-transform: translateX(8px) translateY(8px);
               transform: translateX(8px) translateY(8px);
     }
